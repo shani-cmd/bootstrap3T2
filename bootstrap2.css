@@ -1,0 +1,239 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-snap-points-x: none;
+}
+body {
+  scroll-snap-points-x: none;
+}
+/* search bar here */
+
+/* search bar ended here */
+.bgimg1 {
+  background-image: url("picsbg3.jpg");
+  width: 100%;
+  height: 625px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bgimg2 {
+  background-image: url("picsbg2.jpg");
+  width: 100%;
+  height: 625px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.mrg {
+  margin-top: 190px;
+  font-weight: bold;
+  font-size: 50px;
+  color: red;
+}
+.bt1 {
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: red;
+  border: 1px solid red;
+  height: 60px;
+  opacity: 0.8;
+}
+.bt2 {
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: transparent;
+  border: 2px solid seashell !important;
+  height: 60px;
+  /* opacity: 0.8; */
+}
+.bta1 {
+  color: seashell;
+  padding: 40px;
+  text-decoration: none !important;
+}
+.bta2 {
+  color: seashell;
+  padding: 40px;
+  text-decoration: none !important;
+}
+.bt1:hover {
+  opacity: 0.9;
+  background-color: red;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.bt2:hover {
+  /* opacity: 0.9; */
+  background-color: seashell;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.bta1:hover {
+  color: seashell;
+  padding: 40px;
+  text-decoration: none !important;
+}
+.bta2:hover {
+  color: black;
+  padding: 40px;
+  text-decoration: none !important;
+}
+.bgimg3 {
+  background-image: url("picsbg4.jpg");
+  width: 100%;
+  height: 640px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.bgb {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  /* position: relative; */
+  padding-bottom: 40px;
+}
+.glp
+{
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+div.item div.row >div >a>img {
+margin-left:50%;
+}
+.img-hover {
+  width: 100%; 
+  position: relative;
+}
+
+.card-img-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  opacity: 0;
+  /* z-index: 3; */
+  /* transition: .5s ease; */
+  text-align: center;
+  /* overflow: hidden; */
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.img-hover:hover .card-img-overlay{
+  opacity: .5;
+
+}
+.center
+{
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  /* display: block; */
+  transition: ease-in .4s;
+  transform: translate(-50%, -50%);
+}
+.img-hover:hover .center{
+  opacity: 1;
+  bottom: 50%;
+  transform: translateX(-50%);
+  
+}
+.bgimg4 {
+  background-image: url("picsbg1.jpg");
+  width: 100%;
+  height: 640px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mrg4 {
+  margin-top: 160px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: red;
+}
+.cp {
+  text-align: center;
+  font-weight: bold;
+  color: azure;
+  /* padding-left: 20px !important; */
+}
+.im
+{
+  width: 125px;
+  height: 125px;
+  display: block;
+} 
+.aic {
+  float: left;
+  margin-left: 20px;
+}
+.hwi {
+  float: left;
+  height: 50px;
+  width: 50px;
+  opacity: 0.8;
+}
+.hwi:hover {
+  float: left;
+  height: 50px;
+  width: 50px;
+  opacity: 0.9;
+}
+.bgc {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+.foot {
+  background-color: black;
+  padding: 80px 0px;
+}
+.ftd {
+  color: azure;
+}
+.ftda {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: azure;
+}
+.ftda:hover {
+  color: blue;
+}
+.ftda2 {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: azure;
+  padding: 12px;
+  display: inline;
+  font-size: 25px !important;
+}
+.ftda2:hover {
+  color: blue;
+}
+.ftdba {
+  text-decoration: none !important;
+  list-style: none !important;
+  color: gray;
+  margin-top: 50px;
+  border: 2px solid gray !important;
+}
+.ftdba:hover {
+  color:wheat !important;
+  border: 2px solid wheat !important;
+}
